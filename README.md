@@ -86,14 +86,3 @@ python3 scripts/clipboard_history.py sync-import --sync-dir ~/Dropbox/clipboard-
 
 On Linux, clipboard capture needs one of `wl-paste`, `xclip`, or `xsel` available. Sync is file-based, so any shared folder provider can move the JSONL history across devices.
 
-## Portfolio Notes
-
-This project is intentionally small but built like production automation:
-
-- idempotent scripts where practical
-- timestamped logs and reports
-- safe defaults for file operations
-- clear CLI flags
-- human-readable and machine-readable audit output
-- graceful degradation when optional platform tools are missing
-- no external dependencies
