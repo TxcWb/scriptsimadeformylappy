@@ -1,0 +1,9 @@
+backups/*
+logs/*
+reports/*
+!backups/.gitkeep
+!logs/.gitkeep
+!reports/.gitkeep
+__pycache__/
+*.pyc
+
